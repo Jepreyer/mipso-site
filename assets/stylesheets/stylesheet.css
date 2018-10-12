@@ -6,6 +6,7 @@ html {
   background-size: cover;
 }
 
+
 body {
   font-family: 'Noto Serif', serif;
   color: #605D5D;
@@ -13,12 +14,32 @@ body {
   padding-right: 100px;
 }
 
+.about-hero {
+  background: url(./images/about/about-hero.) no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;}
+
+.about-hero {
+  background: url(./images/tour-dates/tour-dates-hero.) no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;}
+
+
 .section-title {
   font-family: 'Raleway', sans-serif;
 }
 
+.about-summary {
+  padding-top: 50px;
+}
+
 .full-band {
   float:left;
+  padding-top: 70px;
   padding-right: 35px;
   padding-bottom: 10px;
 }
@@ -31,9 +52,38 @@ body {
 
 .band-bullets {
   padding-right: 500px;
+  padding-top: 50px;
 }
 
 .whats-mipso-copy {
   position: relative;
-  left: 30px; 
+  left: 30px;
+}
+
+table {
+  width: 100%;
+  padding-top: 50px;
+}
+
+th {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.buy-now {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+
+.table-content {
+  font-family: font-family: 'Noto Serif', serif;
+}
+
+.tour-dates-announced-box {
+  width: 325px;
+  text-align: center;
+  border: 5px solid #605D5D;
+  margin: auto;
+  margin-top: 50px; 
 }
