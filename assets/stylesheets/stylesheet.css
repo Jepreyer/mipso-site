@@ -9,6 +9,8 @@ html {
 body {
   font-family: 'Noto Serif', serif;
   color: #605D5D;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .section-title {
@@ -17,8 +19,21 @@ body {
 
 .full-band {
   float:left;
+  padding-right: 35px;
+  padding-bottom: 10px;
 }
 
 .headshots {
   float:right;
+  margin-bottom: 150px;
+  padding-left: 100px;
+}
+
+.band-bullets {
+  padding-right: 500px;
+}
+
+.whats-mipso-copy {
+  position: relative;
+  left: 30px; 
 }
