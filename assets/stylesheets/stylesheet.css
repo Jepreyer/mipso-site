@@ -73,6 +73,9 @@ th {
 .buy-now {
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    background-color: #D8D8D8;
+    width: 220px;
+    height: 45px;
 }
 
 
@@ -81,9 +84,9 @@ th {
 }
 
 .tour-dates-announced-box {
-  width: 325px;
+  width: 335px;
   text-align: center;
   border: 5px solid #605D5D;
   margin: auto;
-  margin-top: 50px; 
+  margin-top: 50px;
 }
