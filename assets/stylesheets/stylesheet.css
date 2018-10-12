@@ -5,3 +5,20 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+body {
+  font-family: 'Noto Serif', serif;
+  color: #605D5D;
+}
+
+.section-title {
+  font-family: 'Raleway', sans-serif;
+}
+
+.full-band {
+  float:left;
+}
+
+.headshots {
+  float:right;
+}
