@@ -10,22 +10,31 @@ img, table {
   height: auto;
 }
 
-nav {
-  font-family: 'Raleway', sans-serif;
-  color: #D8D8D8;
-  font-size: 16pt;
-  float: right;
-  padding-top: 50px;
-}
+.bg-img {
+  background-image: url(/images/about/about-hero.png);
 
-.about-banner {
-    background: url(./images/about/about-hero.) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
+}
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+    }
+
+.navigation {
+    font-family: 'Raleway', sans-serif;
+    color: #D8D8D8;
+    font-size: 16pt;
+    overflow: hidden;
+    background-color: rgba(248, 248, 255, 0);
+  }
+
+.navigation a:hover {
+    background-color: #D8D8D8;
+    color: #605D5D;
+  }
+
+  .navigation a {
+    padding-right: 20px;
   }
 
 .section-title {
@@ -104,13 +113,4 @@ a:visited {
 
 .date {
   padding-right: 50px;
-}
-
-.background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1; 
 }
