@@ -108,3 +108,8 @@ a:visited {
 .date {
   padding-right: 50px;
 }
+
+.work {
+  height: 200px;
+  background-color: yellow; 
+}
