@@ -2,6 +2,20 @@
   margin-top: 30px;
 }
 
+.row.instagram.lower {
+  margin-bottom: 80px;
+}
+
+.row.feature-video {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+
 body {
   font-family: 'Noto Serif', serif;
   color: #605D5D;
@@ -34,10 +48,6 @@ img, table {
   .navigation a {
     padding-right: 20px;
   }
-
-.section-title {
-  font-family: 'Raleway', sans-serif;
-}
 
 .about-summary {
   max-width: 100%;
