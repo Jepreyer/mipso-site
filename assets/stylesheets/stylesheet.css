@@ -1,19 +1,8 @@
-.row.instagram {
-  margin-top: 30px;
-}
-
-.row.instagram.lower {
-  margin-bottom: 80px;
-}
-
-.row.feature-video {
-  text-align: center;
-}
-
 h1 {
   font-family: 'Raleway', sans-serif;
   padding-top: 35px;
   padding-bottom: 15px;
+  font-weight: bold;
 }
 
 body {
@@ -28,27 +17,22 @@ img, table {
   height: auto;
 }
 
-.bg-img {
-  background-image: url(/images/about/about-hero.png);
 
+/*MUSIC PAGE STYLING START  */
+.row.feature-video {
+  text-align: center;
 }
 
-.navigation {
-    font-family: 'Raleway', sans-serif;
-    color: #D8D8D8;
-    font-size: 16pt;
-    overflow: hidden;
-    background-color: rgba(248, 248, 255, 0);
+.row.instagram {
+  margin-top: 30px;
+}
 
-.navigation a:hover {
-    background-color: #D8D8D8;
-    color: #605D5D;
-  }
+.row.instagram.lower {
+  margin-bottom: 80px;
+}
+/*MUSIC PAGE STYLING END*/
 
-  .navigation a {
-    padding-right: 20px;
-  }
-
+/*ABOUT PAGE STYLING START  */
 .about-summary {
   max-width: 100%;
   height: auto;
@@ -57,7 +41,7 @@ img, table {
 
 .full-band {
   float:left;
-  padding-top: 70px;
+  padding-top: 50px;
   padding-right: 35px;
   padding-bottom: 10px;
 }
@@ -77,6 +61,13 @@ img, table {
   left: 30px;
 }
 
+.section-title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/*ABOUT PAGE STYLING END*/
+
+/*TOUR DATES TABLE STYLING START*/
 table {
   width: 100%;
   padding-top: 25px;
@@ -112,13 +103,18 @@ a:visited {
 }
 
 .tour-dates-announced-box {
-  width: 335px;
+  width: 320px;
   text-align: center;
   border: 5px solid #605D5D;
   margin: auto;
-  margin-top: 65px;
+  margin-top: 25px;
+  font-family:'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .date {
   padding-right: 50px;
 }
+
+/*TOUR DATES TABLE STYLING END*/
