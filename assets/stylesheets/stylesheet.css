@@ -142,11 +142,13 @@ a:visited {
 .filterDiv {
     float: left;
     color: #ffffff;
-    width: 100px;
-    line-height: 100px;
+    width: 250px;
+
+    line-height: 250px;
     text-align: center;
-    margin: 2px;
+    margin: 25px;
     display: none;
+    }
     /* Hidden by default */
 }
 
@@ -169,12 +171,6 @@ a:visited {
 .btn.active {
   background-color: #605D5D;
   color: #D8D8D8;
-}
-
-.filterDiv img {
-  width: 100%;
-  height: auto;
-  display: block;
 }
 
 
