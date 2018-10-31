@@ -132,3 +132,62 @@ a:visited {
 }
 
 /*TOUR DATES TABLE STYLING END*/
+
+/* MERCH PAGE STYLING STARTS */
+/* Merch Filter */
+.container {
+    overflow: hidden;
+}
+
+.filterDiv {
+    float: left;
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+    /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+.myBtnContainer {
+  width: 100%;
+}
+
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #D8D8D8;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #605D5D;
+  color: #D8D8D8;
+}
+
+.filterDiv img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MERCH PAGE STYLING ENDS  */
