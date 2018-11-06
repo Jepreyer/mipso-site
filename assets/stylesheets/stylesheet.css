@@ -80,37 +80,9 @@ img, table {
 /*MUSIC PAGE STYLING END*/
 
 /*ABOUT PAGE STYLING START  */
-.about-summary {
-  max-width: 100%;
-  height: auto;
-  padding-top: 50px;
-}
 
 .full-band {
-  float:left;
-  padding-top: 30px;
-  padding-right: 35px;
-  padding-bottom: 10px;
-}
-
-.headshots {
   float:right;
-  padding-left: 100px;
-}
-
-.band-bullets {
-  max-width: 100%;
-  height: auto;
-}
-
-.whats-mipso-copy {
-  position: relative;
-  left: 30px;
-}
-
-.section-title {
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 /*ABOUT PAGE STYLING END*/
 
