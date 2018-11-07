@@ -66,6 +66,14 @@ img, table {
 
 
 /*MUSIC PAGE STYLING START  */
+.media-banner {
+  background-image: url("../images/media-page/media-hero.jpg");
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+}
+
 .feature-videos {
   margin-bottom: 30px;
 }
@@ -80,6 +88,14 @@ img, table {
 /*MUSIC PAGE STYLING END*/
 
 /*ABOUT PAGE STYLING START  */
+.about-banner {
+  background-image: url("../images/about/about-hero.png");
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+}
+
 
 .full-band {
   float:right;
@@ -87,6 +103,14 @@ img, table {
 /*ABOUT PAGE STYLING END*/
 
 /*TOUR DATES TABLE STYLING START*/
+.tour-dates-banner {
+  background-image: url("../images/tour-dates/tour-dates-hero.png");
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+}
+
 table {
   width: 100%;
   padding-top: 25px;
@@ -139,6 +163,15 @@ a:visited {
 /*TOUR DATES TABLE STYLING END*/
 
 /* MERCH PAGE STYLING STARTS */
+.merch-banner {
+  background-image: url("../images/merch/merch-hero.jpg");
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+}
+
+
 /* Merch Filter */
 .container {
     overflow: hidden;
@@ -184,6 +217,14 @@ a:visited {
 /*MERCH PAGE STYLING ENDS  */
 
 /*DISCOGRAPHY PAGE STYLING STARTS*/
+.discography-banner {
+  background-image: url("../images/discography/discography-hero.jpg");
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+}
+
 
 .overlay {
   position: absolute;
@@ -244,3 +285,9 @@ transform: translate(-50%, -50%);
 .cover:hover .small-overlay {
   opacity: .9;
 }
+
+.small-covers {
+  margin-bottom: 50px;
+}
+
+/* DISCOGRAPHY PAGE STYLING ENDS  */
