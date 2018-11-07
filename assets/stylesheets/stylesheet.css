@@ -111,7 +111,7 @@ img, table {
 }
 
 .row.about-section {
-  margin-top: 25px;
+  margin-top: 70px;
 }
 
 
@@ -119,15 +119,23 @@ img, table {
   float:right;
 }
 
+.whats-mipso {
+  padding-top: 25px;
+}
+
 .row.meet-the-band-1 {
-  padding-top: 50px;
+  padding-top: 70px;
+}
+
+.our-story-copy {
+  margin-top: 30px;
 }
 
 ul.band-bullets {
   margin-top: 30px;
 }
 
-h1.band-header {
+h1.header-near-image {
   display: inline;
   vertical-align: text-top;
 }
@@ -164,7 +172,8 @@ h1.band-header {
 }
 
 .content-container {
-  margin-top: -40px;
+  margin-top: -20px;
+  margin-bottom: 50px;
 }
 
 table {
@@ -267,7 +276,7 @@ h3 {
 }
 
 #myBtnContainer {
-  margin-top: 40px;
+  margin-top: 70px;
   width: 100%;
   text-align: center;
 
