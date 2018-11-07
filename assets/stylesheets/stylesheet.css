@@ -146,15 +146,21 @@ h1.band-header {
 }
 
 table {
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 25px;
-  border-spacing: 0 15px;
+  padding-bottom: 10px;
 }
 
 th {
   font-family: 'Raleway', sans-serif;
-  text-align: left;
+  text-align: center;
   padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+th.buy-tickets {
+  padding-right: 50px;
 }
 
 a:link {
@@ -167,12 +173,22 @@ a:visited {
   color: #605d5d;
 }
 
+.venue {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+}
+
 .buy-now {
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
     background-color: #D8D8D8;
     width: 220px;
-    height: 45px;
+    height: 55px;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
 }
 
 .table-content {
@@ -181,10 +197,11 @@ a:visited {
 
 .tour-dates-announced-box {
   width: 320px;
+  padding-top: 15px;
   text-align: center;
   border: 5px solid #605D5D;
   margin: auto;
-  margin-top: 25px;
+  margin-top: 35px;
   font-family:'Raleway', sans-serif;
   font-weight: bold;
   font-size: 20px;
