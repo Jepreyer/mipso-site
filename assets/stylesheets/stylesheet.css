@@ -104,6 +104,36 @@ img, table {
 .full-band {
   float:right;
 }
+
+.row.meet-the-band-1 {
+  padding-top: 50px;
+}
+
+h1.band-header {
+  display: inline;
+  vertical-align: text-top;
+}
+
+
+.joe {
+  margin-bottom: 25px;
+  padding-right: 25px;
+}
+
+.libby {
+  margin-bottom: 25px;
+}
+
+.jacob {
+  margin-bottom: 25px;
+  padding-right: 25px;
+}
+
+.wood {
+  margin-bottom: 25px;
+}
+
+
 /*ABOUT PAGE STYLING END*/
 
 /*TOUR DATES TABLE STYLING START*/
