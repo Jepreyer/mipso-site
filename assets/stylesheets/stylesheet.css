@@ -109,6 +109,10 @@ img, table {
   padding-top: 50px;
 }
 
+ul.band-bullets {
+  margin-top: 30px;
+}
+
 h1.band-header {
   display: inline;
   vertical-align: text-top;
@@ -145,22 +149,32 @@ h1.band-header {
   min-height: 600px;
 }
 
+.content-container {
+  margin-top: -40px;
+}
+
 table {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 25px;
-  padding-bottom: 10px;
+  border-collapse: separate;
+  border-spacing: 150px 25px;
+
+
 }
+
+.buy-now {
+      background-color: #D8D8D8;
+      width: 220px;
+      height: 55px;
+  }
 
 th {
   font-family: 'Raleway', sans-serif;
-  text-align: center;
-  padding-bottom: 20px;
-  padding-right: 20px;
+  text-align: left;
 }
 
 th.buy-tickets {
-  padding-right: 50px;
+  width: 235px;
 }
 
 a:link {
@@ -176,12 +190,6 @@ a:visited {
 .venue {
   font-family: 'Raleway', sans-serif;
   font-weight: bolder;
-}
-
-.buy-now {
-    background-color: #D8D8D8;
-    width: 220px;
-    height: 55px;
 }
 
 h3 {
@@ -207,10 +215,6 @@ h3 {
   font-size: 20px;
 }
 
-.date {
-  padding-right: 50px;
-}
-
 /*TOUR DATES TABLE STYLING END*/
 
 /* MERCH PAGE STYLING STARTS */
@@ -226,6 +230,10 @@ h3 {
 /* Merch Filter */
 .container {
     overflow: hidden;
+}
+
+.merch-container {
+  padding-left: 120px;
 }
 
 .filterDiv {
@@ -247,7 +255,12 @@ h3 {
 #myBtnContainer {
   margin-top: 40px;
   width: 100%;
+  text-align: center;
 
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
 }
 
 h2.merch-header {
@@ -256,10 +269,13 @@ h2.merch-header {
     font-size: 36px;
 }
 
+button:focus {
+  outline:0;
+}
+
 button.btn {
   height: 90px;
 }
-
 
 /* Add a light grey background on mouse-over */
 .btn:hover {
@@ -270,6 +286,7 @@ button.btn {
 .btn.active {
   background-color: #605D5D;
   color: #D8D8D8;
+  border-color: #D8D8D8;
 }
 
 .filterDiv:hover {
