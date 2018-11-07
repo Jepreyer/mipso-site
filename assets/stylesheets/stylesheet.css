@@ -22,6 +22,10 @@
     padding-bottom: 15px;
   }
 
+a.current-page {
+    font-size: 26px;
+  }
+
 .navbar .nav > li > a  {
   color: #D8D8D8;
 }
@@ -65,7 +69,7 @@ img, table {
 }
 
 
-/*MUSIC PAGE STYLING START  */
+/*MEDIA PAGE STYLING START  */
 .media-banner {
   background-image: url("../images/media-page/media-hero.jpg");
   margin-bottom: 10px;
@@ -78,6 +82,16 @@ img, table {
   margin-bottom: 30px;
 }
 
+.insta-card:hover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease-in-out;
+  }
+
+
+
 .row.instagram {
   margin-top: 30px;
 }
@@ -85,7 +99,7 @@ img, table {
 .row.instagram.lower {
   margin-bottom: 80px;
 }
-/*MUSIC PAGE STYLING END*/
+/*MEDIA PAGE STYLING END*/
 
 /*ABOUT PAGE STYLING START  */
 .about-banner {
