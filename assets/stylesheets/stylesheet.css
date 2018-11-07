@@ -96,6 +96,10 @@ img, table {
   min-height: 600px;
 }
 
+.row.about-section {
+  margin-top: 25px;
+}
+
 
 .full-band {
   float:right;
