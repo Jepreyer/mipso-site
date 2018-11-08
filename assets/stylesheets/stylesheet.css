@@ -180,15 +180,15 @@ table {
   margin-left: auto;
   margin-right: auto;
   border-collapse: separate;
-  border-spacing: 150px 25px;
+  border-spacing: 75px 25px;
 
 
 }
 
 .buy-now {
       background-color: #D8D8D8;
-      width: 220px;
-      height: 55px;
+      width: 200px;
+      height: 50px;
   }
 
 th {
@@ -196,8 +196,8 @@ th {
   text-align: left;
 }
 
-th.buy-tickets {
-  width: 235px;
+h1.buy-tickets {
+  width: 250px;
 }
 
 a:link {
@@ -213,6 +213,10 @@ a:visited {
 .venue {
   font-family: 'Raleway', sans-serif;
   font-weight: bolder;
+}
+
+h1.venue-spacing {
+  width: 125px;
 }
 
 h3 {
